@@ -11,17 +11,9 @@ body {
   line-height: 1.7;
 }
 
-.header {
+.container {
+  background-color: #000000;
   background-image: url("../images/Background_Image.png");
-  width: 1400px;
-  height: 700px;
-}
-
-.header .navigation {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
 }
 
 .header .navigation .logo {
@@ -40,9 +32,19 @@ body {
   letter-spacing: 1.3px;
 }
 
-.header .navigation li {
-  margin-top: 55px;
+.header .navigation ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
   margin-right: 230px;
+}
+
+.header .navigation li {
+  list-style: none;
+  margin-top: 55px;
 }
 
 .header .navigation li a {

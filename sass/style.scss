@@ -10,17 +10,13 @@ body {
 	margin: 0;
 	font-size: 16px;
     line-height: 1.7;
-   
-   
+}
+.container{
+    background-color: #000000;   
+    background-image: url('../images/Background_Image.png');
 }
 .header{
-  
-    background-image: url('../images/Background_Image.png');
-    width: 1400px;
-    height: 700px;
     .navigation{
-        display: flex;
-        justify-content: flex-end;
         .logo{
             justify-content: left;
             width: 79px;
@@ -34,14 +30,23 @@ body {
             /* Text style for "G, olden" */
             color: #fed136;
             letter-spacing: 1.3px;
-    
+            
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-right: 230px;
         }
         li{ 
+            
+            list-style: none;
             margin-top: 55px;
-            margin-right: 230px;
-
+            
+            
+       
             a{
-               
+                
                 height: 10px;
                 color: #ffffff;
                 font-family: Montserrat;
