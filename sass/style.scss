@@ -1,0 +1,58 @@
+/* Global */
+$font-family: 'Oleo Script', cursive;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 16px;
+    line-height: 1.7;
+   
+   
+}
+.header{
+  
+    background-image: url('../images/Background_Image.png');
+    width: 1400px;
+    height: 700px;
+    .navigation{
+        display: flex;
+        justify-content: flex-end;
+        .logo{
+            justify-content: left;
+            width: 79px;
+            height: 28px;
+            color: #fed136;
+            color: #ffffff;
+            font-family: $font-family;
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 41px;
+            /* Text style for "G, olden" */
+            color: #fed136;
+            letter-spacing: 1.3px;
+    
+        }
+        li{ 
+            margin-top: 55px;
+            margin-right: 230px;
+
+            a{
+               
+                height: 10px;
+                color: #ffffff;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 41px;
+                text-transform: uppercase;
+                text-decoration: none;
+                margin-right: 40px;
+                
+            }
+        }
+        }
+}
